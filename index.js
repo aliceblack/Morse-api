@@ -40,5 +40,6 @@ application.get('/random', function(request, response){
 	response.send({"randomLetter": randomKey, "symbol": code[letter]});
 });
 
-application.listen(3000);
+var port=process.env.PORT || 3000;
+application.listen(port);
 
