@@ -1,0 +1,6 @@
+{
+  "name": "Morse node application",
+  "description": "A Node.js app to convert messages and letters in morse",
+  "repository": "https://github.com/aliceblack/Morse-api",
+  "keywords": ["node", "morse"]
+}
