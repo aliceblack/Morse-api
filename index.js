@@ -5,6 +5,11 @@ var express = require('express');
 var application = express();
 console.log('\nMorse API __ ___ ._. ... .    ._ .__. .. \n ');
 
+application.get('/', function(request, response){
+	var description = "Convert messages, letters and morse symbols \n Morse api made in Node.js";
+	response.send(description);
+});
+
 application.get('/code', function(request, response){
 	response.send(code);
 });
